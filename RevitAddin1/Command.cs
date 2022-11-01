@@ -30,6 +30,8 @@ namespace RevitAddin1
             TaskDialog.Show("TEST", "This is a change I made to my add-in.");
 
             TaskDialog.Show("TEST", "This is another change I made to my add-in.");
+            
+            TaskDialog.Show("TEST", "This is another change I made in Github.");
 
             return Result.Succeeded;
         }
