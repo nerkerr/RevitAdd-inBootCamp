@@ -27,6 +27,8 @@ namespace RevitAddin1
 
             TaskDialog.Show("TEST", "This is my command addin.");
 
+            TaskDialog.Show("TEST", "This is a change I made to my add-in.");
+
             return Result.Succeeded;
         }
     }
